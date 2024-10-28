@@ -7,7 +7,7 @@ import openai  # 引入openai库，用于调用GPT模型
 
 ########################  步骤 1(start)  ########################
 # 读取法律问答数据
-laws_content = pd.read_csv('./data/法律问答数据.csv')
+laws_content = pd.read_csv('./data/法律问答数据.csv.zip')
 # 过滤掉回复为空的行
 laws_content = laws_content[~laws_content['reply'].isnull()]
 new_laws_content = []
@@ -65,8 +65,8 @@ for idx, new in enumerate(top_laws):
 ########################  步骤 3(start)  ##########
 # 初始化OpenAI客户端
 client = openai.OpenAI(
-    api_key='sk-ZSSju0J2CpD1CgmNTAPPRH67i47DhgapCbQkaP86VYmge0FO',
-    base_url="https://api.openai-proxy.org/v1",
+    api_key='API key',  # 替换为你的API key
+    base_url="代理服务器的 URL",  # 替换为你的代理服务器的 URL
 )
 
 # 准备发送给GPT的内容
