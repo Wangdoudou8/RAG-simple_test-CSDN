@@ -6,7 +6,7 @@
 
 
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+<hr style=" border:solid; width:100px; height:1px;" color=#000000">
 
 :white_check_mark: 
 > 笔者简介：Wang Linyong，西工大，2023级，计算机技术
@@ -32,7 +32,7 @@
 
 
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+<hr style=" border:solid; width:100px; height:1px;" color=#000000">
 
 # 2. RAG技术的简要介绍
 ● **定义：** RAG（Retrieval-Augmented Generation）是一种结合了信息**检索**（Retrieval）、模型能力**增强**（Augmented）和文本**生成**（Generation）的新型 **自然语言处理技术框架**。
@@ -53,7 +53,7 @@
 ```
 ● 其中，`{task}` 代表任务的领域或主题，`{question}` 是最终要回答的问题（即用户提出的问题文本），而 `{information1}`、`{information2}` 等则是提供给模型的外部知识库。
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+<hr style=" border:solid; width:100px; height:1px;" color=#000000">
 
 
 # 3. RAG技术和SFT技术的对比
@@ -82,7 +82,7 @@
 
 
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+<hr style=" border:solid; width:100px; height:1px;" color=#000000">
 
 
 # 4. RAG技术的实现流程
@@ -139,7 +139,7 @@
 ● **第三步：答案生成**。RAG技术框架将会对 <font color=#77ee88>第一步得到的问题文本的嵌入向量</font> 和 <font color=#0000ff>第二步得到的知识向量库</font> 进行相似匹配，最终会匹配出 `K` 段和问题相关的知识库原文（即 `K` 个 chunk）。接着，RAG技术框架将会构建一段 提示词Prompt（其内容包括 原问题+知识库原文+一些承接词【例子如前文中的 <u>“2. RAG技术的简要介绍”</u> 的 <u>“使用方式”</u>】），并将其喂入 LLMs，得到对应的文本答案。
 
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+<hr style=" border:solid; width:100px; height:1px;" color=#000000">
 
 # 5. 代码实现
 
@@ -257,7 +257,7 @@ print('\nRAG问答机器人的回复：\n' + res)
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/54acc479be904f449f8b45e273b4c3f2.png#pic_center =1000x)
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+<hr style=" border:solid; width:100px; height:1px;" color=#000000">
 
 
 # 6. 参考文献
@@ -267,7 +267,7 @@ print('\nRAG问答机器人的回复：\n' + res)
 
 
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+<hr style=" border:solid; width:100px; height:1px;" color=#000000">
 
 # 7. 补充说明
 ● 若有写得不对、欠妥的地方，或有疑问，欢迎评论交流。
@@ -275,6 +275,6 @@ print('\nRAG问答机器人的回复：\n' + res)
 ● 本项目的 `github` 链接：
 
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+<hr style=" border:solid; width:100px; height:1px;" color=#000000">
 
 :star: :star: 完稿于 2024年10月28日 19:16 教研室工位 💻
