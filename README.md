@@ -17,13 +17,7 @@
 
 
 
-
-
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
-
-@[TOC](文章目录)
-
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+<hr style=" border:solid; width:100px; height:1px;" color=#000000">
 
 # 1. 为什么产生RAG技术？
 
