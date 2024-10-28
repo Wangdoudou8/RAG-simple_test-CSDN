@@ -8,7 +8,7 @@
 
 
 :white_check_mark: 
-> 笔者简介：Wang Linyong，西工大，2023级，计算机技术
+> 笔者简介：Wang Linyong，西工大，2023级，计算机技术 <br/>
 > 研究方向：文本生成、大语言模型
 
 
@@ -49,7 +49,6 @@
 ```
 ● 其中，`{task}` 代表任务的领域或主题，`{question}` 是最终要回答的问题（即用户提出的问题文本），而 `{information1}`、`{information2}` 等则是提供给模型的外部知识库。
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000">
 
 
 # 3. RAG技术和SFT技术的对比
